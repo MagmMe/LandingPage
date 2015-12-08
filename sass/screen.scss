@@ -3,4 +3,17 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+@import "compass/reset", "compass";
+
+div {
+
+	.przycisk{
+		font-family: Verdana, sans-serif;
+		font-size: 24px;
+		color: #fff;
+		background: rgba(0,102,51,.8);
+		border-radius: 10px;
+		border: 1px solid #666;
+	}
+
+}
