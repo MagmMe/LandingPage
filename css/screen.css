@@ -49,10 +49,16 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
-div .przycisk {
-  font-family: Verdana, sans-serif;
-  font-size: 24px;
-  color: #fff;
-  background: rgba(0, 102, 51, 0.8);
-  border-radius: 10px;
-  border: 1px solid #666; }
+div {
+  width: 500px;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 100px; }
+  div .przycisk {
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    background: rgba(0, 102, 51, 0.8);
+    border-radius: 10px;
+    border: 1px solid #666;
+    box-shadow: 2px 2px 1px black; }
