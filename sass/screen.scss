@@ -5,6 +5,8 @@
 
 @import "compass/reset", "compass";
 
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
 $text-color: #fff;
 
 
@@ -36,10 +38,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 			-1px -1px #fff;
 		opacity: .8;
 
-
-
-
 	}
+
+
+}
+
+#logo:after{
+	content:"Heart of Your company";
+	display: block;
+	width: 300px;
+	font-family: 'Dancing Script', cursive;
+	font-size: .5em;
 }
 
 // nowe selektory

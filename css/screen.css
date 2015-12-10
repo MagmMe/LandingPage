@@ -2,6 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -71,6 +72,13 @@ body {
   font-weight: 800;
   text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
   opacity: .8; }
+
+#logo:after {
+  content: "Heart of Your company";
+  display: block;
+  width: 300px;
+  font-family: 'Dancing Script', cursive;
+  font-size: .5em; }
 
 .header {
   width: 500px;
