@@ -65,13 +65,12 @@ body {
 
 #top #logo {
   display: block;
-  font-size: 3em;
+  font-size: 3.5em;
   width: 30px;
   position: fixed;
   padding: 30px 0 0 30px;
   font-weight: 800;
-  text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff;
-  opacity: .8; }
+  text-shadow: 1px 1px #fff, 1px -1px #fff, -1px 1px #fff, -1px -1px #fff; }
 
 #logo:after {
   content: "Heart of Your company";
@@ -135,13 +134,14 @@ body {
       box-shadow: 1px 1px 1px black; }
 
 #column {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden; }
   #column div {
+    box-sizing: border-box;
     padding: 0 20px 50px 20px;
     color: #fff;
-    width: 45%;
+    width: 50%;
     float: left;
     font-family: Helvetica, sans-serif;
     font-weight: 100;
@@ -152,3 +152,15 @@ body {
     text-shadow: 1px 1px 1px red; }
   #column :first-letter {
     font-size: 2em; }
+
+#box-site {
+  width: 100%;
+  height: 700px; }
+  #box-site #bigbox {
+    background: rgba(232, 133, 33, 0.4);
+    height: 100px;
+    width: 50%;
+    border: 10px solid rgba(111, 2, 45, 0.5);
+    padding: 10px;
+    float: left;
+    box-sizing: border-box; }
